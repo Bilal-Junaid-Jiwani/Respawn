@@ -10,7 +10,7 @@ export default function AddProduct({ onAdded }) {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://respawn-c0al.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

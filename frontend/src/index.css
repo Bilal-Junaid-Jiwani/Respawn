@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* small custom tweaks */
+:root {
+  --respawn-yellow: #f6c85f;
+  --respawn-dark: #0b0f12;
+}
+
+/* If you want to add small utility overrides, add here */
